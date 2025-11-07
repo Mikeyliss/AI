@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🤖 Free AI Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🤖 Free AI Chat with Hugging Face API</h1>
+      <button id="resetChat">Reset Chat</button>
+    </header>
+
+    <main id="chatContainer"></main>
+
+    <div class="input-section">
+      <textarea id="userInput" placeholder="Type your message..."></textarea>
+      <button id="sendBtn">Send</button>
+    </div>
+
+    <div class="apikey-section">
+      <input type="password" id="apiKeyInput" placeholder="Enter your Hugging Face API key" />
+      <button id="saveKey">Save Key</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
